@@ -1,0 +1,9 @@
+ls- list all files and folders
+
+cd "file name"- enter that folder/file
+
+cd ..- backs out of current folder
+
+Save to github process- git add "file name" or git add *	git commit -m "commit message"	git push 
+
+git add *- adds all files (fast and easy)
