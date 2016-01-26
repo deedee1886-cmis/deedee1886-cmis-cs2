@@ -7,3 +7,7 @@ cd ..- backs out of current folder
 Save to github process- git add "file name" or git add *	git commit -m "commit message"	git push 
 
 git add *- adds all files (fast and easy)
+
+git log- shows history within terminal
+
+git status- checks on the files you added
