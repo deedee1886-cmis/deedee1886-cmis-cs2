@@ -11,3 +11,12 @@ git add *- adds all files (fast and easy)
 git log- shows history within terminal
 
 git status- checks on the files you added
+
+*- times
+
+/- divide, for divison add .0 after one of the numbers
+
+** exponent
+
+control+d- exit out of python
+
