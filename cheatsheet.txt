@@ -20,3 +20,16 @@ git status- checks on the files you added
 
 control+d- exit out of python
 
+FUNCTIONS
+- int(variable)= converts into interger
+-float(variable)= converts into float
+-str(variable)= converts into string
+-len(varible)= calculates the lenth
+-round(variable)= rounds the number
+
+PYTHON TRICKS
+-dir(__builtins__) = list out all functions
+_help(function of choice) = ask python for info and help
+q = to get out of the help screen
+
+
