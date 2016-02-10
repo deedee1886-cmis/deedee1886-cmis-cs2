@@ -14,7 +14,7 @@ VolumeOfCube = AreaOfSquareInMeters*32 #contains a volume of a cube
 OneNinthOfTheAreaOfTriangleInMeters = 1.6 #contains one 1/9 of the area of a triangle in meters
 print "My name is" + str(MyName) + "I am" + str(MyAge) + "I am" + str(MyHeightInMeters) + "Tall" + "I have" + str(YearsLeftOnEarth) + "years left on earth" + "I am" + str(TheDifferenceBetweenMyHeightInMetersVSAverageHeightInMeters) + "Meters taller than the average 14 year old asian male" #prints out variables 
 print "The length of 1 side of a sqaure in meters is", (LengthOf1SideOfSquareInMeters), "The length of a triangle in meters is", (LengthOfTriangleInMeters), "The height of the triangle in meters is", (HeightOfTriangleInMeters), "The area of the sqaure would be", (AreaOfSquareInMeters), "The volume of a cube would be", (VolumeOfCube) #print out more variables
-print ";)"*10000 #lewl #sweg
+print ";)"*10000 #prints out 10000 smilies, prepare yourself for chaos
 
 
 
