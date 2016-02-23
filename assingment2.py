@@ -1,4 +1,5 @@
 import math
+from Tkinter import *
 def add(a, b):
 	return a + b
 add(3, 4)
@@ -55,3 +56,19 @@ right_align("Hello")
 def center(a):
 	return (a.center(40))
 center("Hello")
+
+msg = Message(text="Hello")
+msg.config(bg='white', font=('times', 16, 'italic'))
+msg.pack()
+mainloop()
+
+msg = Message(text="I eat cats!")
+msg.config(bg='white', font=('times', 16, 'italic'))
+msg.pack()
+mainloop()
+
+
+
+
+
+
