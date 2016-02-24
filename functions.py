@@ -1,5 +1,4 @@
 import math
-from Tkinter import *
 def add(a, b):
 	return a + b
 add(3, 4)
@@ -26,7 +25,6 @@ def volume_of_sphere(r):
 	Vol1 = (((4/3.0)*pi)*a**3)
 	Vol2 = (((4/3.0)*pi)*b**3)
 	return Vol1 + Vol2/2
-
 
 
 def areaoftriangle (a,b,c):
@@ -57,18 +55,10 @@ def center(a):
 	return (a.center(40))
 center("Hello")
 
-msg = Message(text="Hello")
-msg.config(bg='white', font=('times', 16, 'italic'))
-msg.pack()
-mainloop()
+def msgbox(a):
+    return "+" + (len(a) + int(4)) * "-" + "+\n" "|" + "  " + a + "  " + "|\n" "+" + (len(a) + int(4)) * "-" + "+"
 
-msg = Message(text="I eat cats!")
-msg.config(bg='white', font=('times', 16, 'italic'))
-msg.pack()
-mainloop()
-
-
-
-
+msgbox("Hello")
+msgbox("I eat cats!")
 
 
