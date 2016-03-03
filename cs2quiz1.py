@@ -1,6 +1,6 @@
 #Part 1: Terminology (15 points)
 #1 1pt) What is the symbol "=" used for?
-#That symbol is called a assignment operator, it creates new variables, and gives the variables values.
+#That symbol is called a assignment operator, it creates new variables, and gives the variables values. 
 #
 #
 #2 3pts) Write a technical definition for 'function'
@@ -13,11 +13,11 @@
 #
 #4 5pts) We know 5 basic data types. Write the name for each one and provide two
 #   examples of each below
-#	1:and = 2==2 and 4==4   50==35 and 39==10
-#	2:or = 2>1 or 1>2   240>10 or 100>240
-#	3:not = not 50==50   not 30>20
-#	4:is = 2 is 2.0   1.0 is 1
-#	5:if = False==True if True==False   2>1 if 1<2
+#	1:int = 2   3
+#	2:str = "hello"   "testing"
+#	3:float = 2.346   3.14
+#	4:bool = True   False
+#	5:tupple = ("My name is DeeDee", "I am", 14, "years old") ("I like dogs", "I have" 3 "dogs")
 #
 #5 2pts) What is the difference between a "function definition" and a 
 #        "function call"?
@@ -27,9 +27,9 @@
 #
 #6 3pts) What are the 3 phases that every computer program has? What happens in
 #        each of them
-#	1:int(): Takes the float/string and turns it into a integer, this will allow it do math problems
-#	2:str(): This takes anything and turns it into a string(a sentence/words) this will allow it to be used in a sentence
-#	3:float(): Takes any interger and converts it into a float(decimal)
+#	1:input
+#	2:process
+#	3:output
 #
 #Part 2: Programming (25 points)
 #Write a program that asks the user for the areas of 3 circles.
@@ -44,7 +44,7 @@
 #TOTALS  ...
 
 # Hint: Radius is the square root of the area divided by pi
-
+#input
 import math
 
 C1 = raw_input("Area of C1: ")
@@ -55,15 +55,17 @@ def circle_diameter(area):
     return math.sqrt(((area) / math.pi)) + math.sqrt(((area) / math.pi))
 
 print ""
-
+#processing
 CD1 = math.sqrt(((float(C1)) / math.pi)) + math.sqrt(((float(C1)) / math.pi))
 CD2 = math.sqrt(((float(C2)) / math.pi)) + math.sqrt(((float(C2)) / math.pi))
 CD3 = math.sqrt(((float(C3)) / math.pi)) + math.sqrt(((float(C3)) / math.pi))
 
 Total = float(CD1) + float(CD2) + float(CD3)
-
+#output
 print "Circle  Diameter"
-print "c1      " + str(C1)
-print "c2      " + str(C2)
-print "c3      " + str(C3)
+print "c1      " + str(CD1)
+print "c2      " + str(CD2)
+print "c3      " + str(CD3)
 print "Totals  " + str(Total)
+
+
