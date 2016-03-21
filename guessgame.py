@@ -6,7 +6,7 @@ def Target(V1,V2):
 	Target = (random.randint(int(V1),int(V2))) 
 	return Target
 
-print "I'm thinking of a number from " + int(V1) + " to " + int(V2)
+print "I'm thinking of a number from " + V1 + " to " + V2
 
 print "What do you think that number is?"
 
@@ -17,14 +17,17 @@ print "The target was " + str(Target(V1,V2))
 print "Your guess was " + str(user_guess)
 
 
-if user_guess > (Target(V1,V2)):
+
+if int(user_guess) == (Target(V1,V2)):
+	print "Great guess, you are correct"
+
+elif user_guess > (Target(V1,V2)):
 	result1 = int(user_guess) - (Target(V1,V2))
 	print "That's over by " + str(result1)
 
-else:
-	 user_guess < (Target(V1,V2))
+
+elif user_guess < (Target(V1,V2)):
 	result2 = (Target(V1,V2)) - int(user_guess)
 	print "That's under by " + str(result2)
 
-if user_guess == Target:
-	print "Great guess, you are correct"
+
