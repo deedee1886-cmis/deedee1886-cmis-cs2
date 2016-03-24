@@ -1,33 +1,65 @@
-V1 = raw_input("type minimal number ")
-V2 = raw_input("type maxium number ")
+
+import math
 
 import random
-def Target(V1,V2): 
-	Target = (random.randint(int(V1),int(V2))) 
-	return Target
-
-print "I'm thinking of a number from " + V1 + " to " + V2
-
-print "What do you think that number is?"
-
-user_guess = raw_input("type your guess ")
-
-print "The target was " + str(Target(V1,V2))
-
-print "Your guess was " + str(user_guess)
 
 
-
-if int(user_guess) == (Target(V1,V2)):
-	print "Great guess, you are correct"
-
-elif user_guess > (Target(V1,V2)):
-	result1 = int(user_guess) - (Target(V1,V2))
-	print "That's over by " + str(result1)
+Minimum_Number = int(raw_input("What is the minimum number? "))
 
 
-elif user_guess < (Target(V1,V2)):
-	result2 = (Target(V1,V2)) - int(user_guess)
-	print "That's under by " + str(result2)
+Maximum_Number = int(raw_input("What is the maximum number? "))
+
+
+print "I'm thinking of a number from " + str(Minimum_Number) + " to " + str(Maximum_Number) + "."
+
+Guess = str(raw_input("What do you think it is?: "))
+
+def Correct_or_Over_or_under():
+
+   x = number = random.randint(Minimum_Number, Maximum_Number)
+
+   if int(x) == int(Guess):
+
+       print """
+
+The target was {}
+
+Your guess was {}
+
+That's correct! You must be psychic!
+
+		""".format(str(x), str(Guess))
+
+   elif str(x) > str(Guess):
+
+       Under = int(x) - int(Guess)
+
+       print """
+
+The target was {}
+
+Your guess was {}
+
+That's under by {}
+
+		""".format(str(x), str(Guess), Under)
+
+   elif str(x) < str(Guess):
+
+       Over = int(Guess) - int(x)
+
+       print """
+
+The target was {}
+
+
+Your guess was {}
+
+
+That's over by {}
+
+		""".format(str(x), str(Guess), Over)
+
+Correct_or_Over_or_under()
 
 
