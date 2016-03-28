@@ -10,7 +10,7 @@ Minimum_Number = int(raw_input("What is the minimum number? "))
 Maximum_Number = int(raw_input("What is the maximum number? "))
 
 
-print "I'm thinking of a number from " + str(Minimum_Number) + " to " + str(Maximum_Number) + "."
+print "I am thinking of a number from " + str(Minimum_Number) + " to " + str(Maximum_Number) + "."
 
 Guess = str(raw_input("What do you think it is?: "))
 
@@ -26,7 +26,7 @@ The target was {}
 
 Your guess was {}
 
-That's correct! You must be psychic!
+That is correct! You must be psychic!
 
 		""".format(str(x), str(Guess))
 
@@ -40,7 +40,7 @@ The target was {}
 
 Your guess was {}
 
-That's under by {}
+That is under by {}
 
 		""".format(str(x), str(Guess), Under)
 
@@ -56,7 +56,7 @@ The target was {}
 Your guess was {}
 
 
-That's over by {}
+That is over by {}
 
 		""".format(str(x), str(Guess), Over)
 
