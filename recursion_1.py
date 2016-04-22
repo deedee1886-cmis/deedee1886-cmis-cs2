@@ -1,9 +1,11 @@
-a = 1
-def countup(a):
-    if a >= 11:
-        print "Blastoff!"
-    else:
-        print a 
-        countup(a+1)
+b = 0
+def countup(b):
+	if b > 24:
+		print "BlastOff!"
+	else: 
+		print b
+		countup(b+1)
 
-countup(a)
+
+
+
