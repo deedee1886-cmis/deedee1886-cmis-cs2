@@ -1,3 +1,12 @@
-number = raw_input("Next number")
+import math
+number = raw_input("type number ")
 
-number + number
+def adder():
+	return 
+	adder()
+adder()
+
+
+
+
+
