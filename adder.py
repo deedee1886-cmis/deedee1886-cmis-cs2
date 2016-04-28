@@ -16,7 +16,6 @@ def main():
 	
 main()
 
-print total
 
 
 
