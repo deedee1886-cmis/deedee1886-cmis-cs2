@@ -1,10 +1,22 @@
 import math
-number = raw_input("type number ")
 
-def adder():
-	return 
-	adder()
-adder()
+def adder(total):
+	number = raw_input("type number ")
+	if number == "":
+		print "the sum is {}" .format (number)
+	else:
+		total += float(number)
+		adder(total)
+
+def main():
+	total = 0 
+
+	adder(total)
+
+	
+main()
+
+print total
 
 
 
