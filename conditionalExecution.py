@@ -45,10 +45,16 @@ print("\n")
 
 print "You start to feel hungry, you see some roots on the ground, do you eat it or not?"
 
+print("\n")
+
 choice_3 = raw_input("eat or not")
 
+if choice_3 == "eat":
+	print "good choice, you grab some roots, and eat them, this gives you a slight energy boost."
 
-
+else:
+	print "You don't eat the roots, you then die of hunger"
+	quit()
 
 
 
