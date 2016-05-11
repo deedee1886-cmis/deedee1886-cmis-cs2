@@ -105,13 +105,43 @@ print "You manage to fend off the soldiers, you get to live another day, however
 
 print "In the heavens the jarate god invites you to play some games with him."
 
-minimum_number = 1
+print("\n")
 
-maximum_number = 2
+print "The jarate go has you roll a dice, if you roll a one you will continue playing his games, if you roll a two, then he will banish you from his kingdom."
+
+print("\n")
 
 
+x = number = random.randint(1, 2)
 
+print x
 
+if x == 1:
+	print "You have rolled and one, and the jarate god is pleased."
+
+elif x == 2:
+	print "You have rolled a two, and the jarate god is mad at you, he proceeds to banish you from the heavens."
+	quit()
+
+print("\n")
+
+print "Since you have survived this long, the jarate god gives you 100 dollars."
+
+print("\n")
+
+subtraction == 100 - 3.5 
+
+print("\n")
+
+print "A tax collector comes over and asks you for a payment of 3.5 dollars, do you give him the money or do you attempt to run away from him."
+
+choice_6 = raw_input("run or give")
+
+if choice_6 == "run":
+	print "As you run away from the tax collector, you run into a big man, he gets mad at you, and beats you up."
+
+else:
+	print subtraction
 
 
 
