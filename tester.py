@@ -1,3 +1,18 @@
-sub = 100 - 3.5
+import math
 
-print 'You give the tax collector the money, which leaves you with' + .format(sub)
+def adder(odd):
+	number = raw_input("type number ")
+	if num % 2 == 1
+	if number == "":
+		print "The sum is {}".format(odd)
+	else:
+		total += float(number)
+		adder(total)
+
+def main():
+	total = 0 
+
+	adder(total)
+
+	
+main()
