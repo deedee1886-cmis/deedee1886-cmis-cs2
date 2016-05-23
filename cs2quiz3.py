@@ -1,45 +1,44 @@
 #Section 1: Terminology
 # 1) What is a recursive function?
 #A recursive function is a function that calls itself.
-#
+#correct
 #
 # 2) What happens if there is no base case defined in a recursive function?
 #A syntax error will pop up, since a recursive function needs a complete base case and recursive case in order to work properly.
-#
+#correct
 #
 # 3) What is the first thing to consider when designing a recursive function?
 #What you are going to put inside the base case, since the base case comes before the recursive case.
-#
+#correct
 #
 # 4) How do we put data into a function call?
 #We first put data in a variable and put the variable in the function. EX- tester(data):
-#
+#correct
 # 
 # 5) How do we get data out of a function call?
 #We call the function along with the variable. EX- tester(data)
-#
+#correct
 #
 
 #Section 2: Reading
 # Read the following function definitions and function calls.
 # Then determine the values of the variables q1-q20.
 
-#a1 = 12
-#a2 = 12
-#a3 = -1
+#a1 = 12 #incorrect
+#a2 = 12 #incorrect
+#a3 = -1 #correct
 
-#b1 = 9
-#b2 = 0
-#b3 = 0
+#b1 = 9 #incorrect	
+#b2 = 0 #incorrect
+#b3 = 0 #incorrect
 
-#c1 = -5
+#c1 = -5 #incorrect
+#c2 = -7 #incorrect
+#c3 = 34 #incorrect
 
-#c2 = -7
-#c3 = 34
-
-#d1 = 6
-#d2 = 8
-#d3 = 4
+#d1 = 6 #correct
+#d2 = 8 #correct
+#d3 = 4 #correct
 
 #Section 3: Programming
 #Write a script that asks the user to enter a series of numbers.
@@ -52,18 +51,18 @@
 
 import math
 
-#base case
+#base case 2/2
 def adder(total):
 	number = raw_input("type number ")
 	if number == "":
-		print "The sum is {}".format(total)
+		print "The sum is {}".format(total) #it returns the sum +1
 	else:
-		total += float(number)
-		adder(total)
+		total += float(number)               #it does not filter even numbers 0/2
+		adder(total)			     #the function does increments properly 1/1
 
-#recursive case
+#recursive case 2/2				     #did not use return 0/1
 def main():
-	total = 0 
+	total = 0 				     #main function is defined and is also called 1/1
 
 	adder(total)
 
