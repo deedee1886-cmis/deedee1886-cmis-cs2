@@ -41,11 +41,17 @@
 		#x -= 1 
 
 
-def odds(x = 1, y = 10):
-	if x <= y:
-		while x <= y:
-			print x 
-			print x += 1
+#def odds(x = 1, y = 10):
+#	if x <= y:
+#		while x <= y:
+#			print x 
+#			print x += 1
+
+
+
+def 
+
+
 
 
 
