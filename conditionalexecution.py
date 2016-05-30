@@ -162,32 +162,28 @@ print "Later on the jarate god gives you a 4 sided dice, he tells you that the d
 
 print ("\n")
 
-print "1 = you get to stay in the heavens forever, 2 = be sent back to earth and be hailed as a god, 3 = be killed instantly, 4 = be reborn on earth as a normal human being."
+print "You hear a voice calling to you"
 
-print ("\n")
+choice_7 = raw_input("do you try to communicate with the voice or leave it be ")
 
- 
-fate = random.randint(0,4)
-print fate
+if choice_7 == "communicate":
+    print "You try to communicate with the voice, you proceed to go insane"
+        quit()
 
-print ("\n")
+print "good choice, you continue to hear voices, but they can't harm in any sort of way"
 
-if fate == 1: 
-	print "Congrats you get to stay in the heavens forever, and live a great life." 
+print "You start to see visions, do you go to the doctor and tell them about it or do you keep quite about your visions"
+
+choice_8 = raw_input("tell or keep")
+
+if choice_8 == "tell":
+    print "The doctors are freaked out about your visions, so they called the police, who arrive at the sence and shoot you dead"
+    quit()
 
 
-if fate == 2:
-	print "You are sent back to earth in holy jarate form, your new found powers makes all the humans worship you as a god."
+#for later use
+#print "1 = you get to stay in the heavens forever, 2 = be sent back to earth and be hailed as a god, 3 = be killed instantly, 4 = be reborn on earth as a normal human being." print ("\n") fate = random.randint(0,4) print fate print ("\n") if fate == 1: print "Congrats you get to stay in the heavens forever, and live a great life." if fate == 2: print "You are sent back to earth in holy jarate form, your new found powers makes all the humans worship you as a god." if fate == 3: print "Too bad you rolled a 3, the jarate god kills you instantly with his powers." if fate == 4: print "You get a new chance at life, you are reborned as a new human on planet earth."
 
-if fate == 3:
-	print "Too bad you rolled a 3, the jarate god kills you instantly with his powers."
-
-if fate == 4:
-	print "You get a new chance at life, you are reborned as a new human on planet earth."
-
-print ("\n")
-
-print "Thank you " + str(a) + " for playing my text game, hope you enjoyed yourself."
 
 
 
