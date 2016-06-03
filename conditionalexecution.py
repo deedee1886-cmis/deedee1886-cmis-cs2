@@ -168,17 +168,45 @@ choice_7 = raw_input("do you try to communicate with the voice or leave it be ")
 
 if choice_7 == "communicate":
     print "You try to communicate with the voice, you proceed to go insane"
-        quit()
+    quit()
 
 print "good choice, you continue to hear voices, but they can't harm in any sort of way"
 
 print "You start to see visions, do you go to the doctor and tell them about it or do you keep quite about your visions"
 
-choice_8 = raw_input("tell or keep")
+choice_8 = raw_input("tell or keep ")
 
 if choice_8 == "tell":
     print "The doctors are freaked out about your visions, so they called the police, who arrive at the sence and shoot you dead"
     quit()
+
+print "The jarate god asks you a Q and A about the NBA. His first question is, which team won the 2015 finals? The warriors or the cavs?"
+
+choice_9 = raw_input("warriors or cavs ")
+
+if choice_9 == "warriors":
+	print "that is correct"
+
+elif choice_9 == "cavs":
+	print "you are wrong"
+
+else:
+	print "type something"
+
+
+
+print "The jarate god's second question is who is considered the greatest player in NBA history? Javale Mcgee or Kwame Brown?"
+
+choice_10 = raw_input("Javle or Kwame ")
+
+if choice_10 == "Javle":
+	print "You are correct"
+
+elif choice_10 == "Kwame":
+	print "that is a good guess but you are wrong"
+
+else:
+	print "type something"
 
 
 #for later use
